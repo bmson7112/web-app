@@ -15,8 +15,6 @@ spec:
       labels:
         app: vdt-frontend
     spec:
-      nodeSelector:
-        node-role.kubernetes.io/frontend: ""
       containers:
       - name: vd-frontend
         image: hoangndst/vdt-frontend:latest

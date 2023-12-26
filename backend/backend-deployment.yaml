@@ -15,8 +15,6 @@ spec:
       labels:
         app: vdt-backend
     spec:
-      nodeSelector:
-        node-role.kubernetes.io/backend: ""
       containers:
       - name: vd-backend
         image: hoangndst/vdt-backend:latest
